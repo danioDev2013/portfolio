@@ -1,0 +1,212 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(253, 251, 251) !important;
+}
+:root {
+  background-color: rgb(252, 249, 249) !important;
+
+  --section-header: 24px;
+  --body: 16px;
+  --body-emphasis: 20px;
+  --caption: 14px;
+  --default-weight: 500;
+  --hero-weight: 700;
+
+  /* borders */
+  --thin: 1px;
+  --thick: 2px;
+
+  /* border radius */
+  --border-radius-sm: 4px;
+  --border-radius-md: 6px;
+  --border-radius-lg: 12px;
+
+  /* spacing */
+  --spacing-xx-sml: 4px;
+  --spacing-x-sml: 8px;
+  --spacing-sml: 12px;
+  --spacing-med: 16px;
+  --spacing-lrg: 20px;
+  --spacing-x-lrg: 24px;
+  --spacing-xx-lrg: 28px;  
+  --spacing-xxx-lrg: 32px;
+}
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ------------------------------------------------------------------ */
+/* Body
+/* ------------------------------------------------------------------ */
+
+#background {
+  background-image: url('https://images.unsplash.com/photo-1548176015-895dc90e5941?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: absolute;
+  padding-bottom: 10rem;
+  width: 100%;
+  height: 100%;
+  max-height: 1000px;
+  min-height: 800px;
+}
+#b2 {
+  background-image: url('https://github.com/dorley1993/Portfolio_3/blob/main/assets/images/mac.png?raw=true') !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: absolute; 
+  width: 100%;
+  height: 100%;
+}
+
+#intro-pad {
+  padding: 12% 0;
+}
+
+#title {
+  color: rgb(190, 152, 221);
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+}
+
+.container {
+  background-color: rgb(190, 152, 221) !important;;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.116);
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 320px;
+    height: fit-content;
+    padding-bottom: 32px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+@media only screen and (max-width: 560px) {
+  .container {
+      width: 96%;
+  }
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+  padding: 0px 32px 0px 32px;
+}
+
+@media only screen and (max-width: 560px) {
+  .col-12 {
+      padding: 0px 12px 0px 12px;
+  }
+}
+
+.p-1 {
+  padding: 2px!important;
+}
+
+.p-2 {
+  padding: 4px!important;
+}
+
+.p-3 {
+  padding: 6px!important;
+}
+
+.p-4 {
+  padding: 8px!important;
+}
+
+.p-5 {
+  padding: 10px!important;
+}
+
+@media only screen and (max-width: 560px) {
+  .p-5 {
+      padding: 4px!important;
+  }
+}
+
+
+/* ------------------------------------------------------------------ */
+/* Cards/categories
+/* ------------------------------------------------------------------ */
+
+.card {
+  height: 160px;
+  width: 248px;
+  border-radius: 12px;
+  transition: transform .2s;
+  border: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .card {
+      height: 160px;
+      width: 320px;
+      /* background-size: 100% auto; */
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .card {
+      height: 160px;
+      width: 294px;
+      /* background-size: 100% auto; */
+  }
+}
+
+.protection-layer {
+  background-color: rgba(0, 0, 0, 0.205);
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.card-text {
+  color: white;
+  font-size: 14px;
+  padding-top: 100px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.623);
+}
+
+@media only screen and (max-width: 560px) {
+  .card-text {
+      padding-bottom: 20px;
+      font-size: 20px;
+      color: white;
+  }
+}
+
+.card:hover {
+  transform: scale(1.05);
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  text-decoration: none;
+}
+
+.card:active {
+  transform: scale(0.95);
+}
+
+/* ------------------------------------------------------------------ */
+/* Buttons
+/* ------------------------------------------------------------------ */
+
+.viewMore {
+  color: white;
+  border: none;
+  background: rgb(161, 126, 190);
+  box-shadow: 0px 0px 6px rgba(0,0,0,.5);
+  border-radius: 6px;
+}

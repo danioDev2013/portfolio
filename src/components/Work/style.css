@@ -1,0 +1,70 @@
+.block {
+    box-shadow: 4px 4px 7px #333;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10%;
+}
+/*creates width of the card*/
+.works-thumb {
+    height: 200px;
+}
+#titleWork {
+    color: rgb(190, 152, 221);
+    text-decoration: underline;
+    padding: 2% !important;
+    margin-bottom: 1% !important;
+}
+#bProjs {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+/*All the images*/
+#work-1 {
+    background: url("./spark.gif") no-repeat 100%;
+    background-size: cover;
+}
+#work-2 {
+    background: url("https://github.com/dorley1993/Portfolio_V.4/blob/main/public/images/whatsinmybelly.gif?raw=true") no-repeat 100%;
+    background-size: cover;
+}
+#work-3 {
+    background: url("https://github.com/dorley1993/Portfolio_V.4/blob/main/public/images/techBabble.png?raw=true") no-repeat 100%;
+    background-size: cover;
+}
+#work-4 {
+    background: url("https://github.com/dorley1993/Portfolio_3/blob/main/assets/images/lostNoMore.gif?raw=true") no-repeat 100%;
+    background-size: cover;
+}
+#work-5 {
+    background: url("https://github.com/dorley1993/Portfolio_V.4/blob/main/public/images/fit.png?raw=true") no-repeat 100%;
+    background-size: cover;
+}
+#work-6 {
+    background: url("https://github.com/dorley1993/Portfolio_3/blob/main/assets/images/weather.png?raw=true") no-repeat 100%;
+    background-size: cover;
+}
+
+a {
+    color: rgb(190, 152, 221) !important;
+    text-decoration: none;
+}
+a:hover,
+#root > div > div > section > article > h2 {
+    text-decoration: underline;
+    color: rgba(190, 152, 221, 0.63) !important;
+}
+
+#border {
+    padding: 5%;
+    margin-top: 3%;
+}
+p {
+    margin-bottom: 0 !important;
+}
+#textB {
+    color: white;
+}
+#border {
+    width: 100%;
+}

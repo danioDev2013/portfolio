@@ -1,0 +1,11 @@
+#me {
+    animation: fade 1.5s ease-in-out;
+    animation: slide-up 1.5s ease-in-out;
+}
+#aboutMe {
+    color: white;
+    padding: 2%;
+}
+#title1 {
+    font-family: 'Shadows Into Light Two', cursive;
+}

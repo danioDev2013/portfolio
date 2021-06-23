@@ -1,0 +1,22 @@
+.nav-text {
+    font-size: small;
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo {
+    font-size: 25px !important;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+a:hover {
+    color: rgb(190, 152, 221) !important;
+}
+.nav-text:hover {
+    text-decoration: underline;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

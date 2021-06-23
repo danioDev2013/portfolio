@@ -1,0 +1,135 @@
+.contactT {
+    font-size: 40px;
+    padding: 20px 0px 20px 0px;
+    color: #232323d8;
+}
+
+  /* Send Button */
+#send {
+    background-color: transparent !important;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid white;
+    transition: all .2s ease-in-out;
+  }
+  #send:hover,
+  #cancel:hover {
+    transform: translate3d(0px, -5px, 0px);
+  }
+
+#cancel {
+    background-color: transparent !important;
+    color: #232323d8;
+    border-radius: 8px;
+    border: 1px solid #232323dc;
+    transition: all .2s ease-in-out;
+}
+  
+  #back2 > section > div > form > div:nth-child(4) {
+    padding-left: 5%;
+  }
+
+#name,
+#email,
+#message{
+    height: 40px;
+    width: 100%;
+    border-radius: 8px;
+    background: #F5F5F5;
+}
+
+label {
+    padding: 5px;
+}
+.contact-icon {
+    color: white !important;
+}
+
+
+/* Location, Phone, Email Section */
+.contact-list {
+    list-style-type: none;
+    margin-left: -10px;
+    padding-right: 20px;
+    color: #232323d8;
+  }
+  .list-item {
+    line-height: 4;
+    font-size: medium;
+  }
+  .contact-text {
+    font-size: 14px;
+    letter-spacing: 1.9px;
+    color: white;
+  }
+  #back2 > section > div > div:nth-child(4) > ul.contact-list > li:nth-child(2) > i > span > a {
+      color: white !important;
+  }
+  
+  .place {
+    margin-left: 39px;
+  }
+  
+  .gmail {
+    margin-left: 30px;
+  }
+
+  /* Social Media Icons */
+  .social-media-list {
+    position: relative;
+    font-size: larger;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .social-media-list li a {
+    color: #fff;
+  }
+  
+  .social-media-list li {
+    position: relative; 
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 10px 3px;
+    line-height: 60px;
+    border-radius: 50%;
+    cursor: pointer; 
+    transition: all .2s ease-in-out;
+  }
+  
+  .social-media-list li:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    transition: all .2s ease-in-out;
+  }
+  
+  
+  
+  .social-media-list li:hover:after {
+    opacity: 1;  
+    transform: scale(1.12);
+    transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+    color: #232323d8;
+  }
+  
+  .social-media-list li:hover a {
+    color: #232323d8;
+  }
+  
+  .copyright {
+    font: 200 14px 'Oswald', sans-serif;
+    color: #555;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  #email2 {
+    color: white !important;
+  }

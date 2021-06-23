@@ -1,0 +1,40 @@
+/* ----------- */
+/* Footer Specific Rules */
+/* ----------- */
+footer {
+    background-color:#232323;
+    width: 100%;
+    color:#ffffff;
+    margin-top: 150px;
+}
+#connectMe {
+    color: white;
+    font-size: 15px;
+}
+#root > div > div > footer > section.container-fluid.py-2.justify-content-center.contacts-data.text-center > ul {
+    margin: 0px !important;
+}
+.social-icons li{
+    display: inline-block;
+    padding: 0px 3px;
+  }
+      .social-icons a {
+          display: inline-block;
+          text-align: center;
+      }
+      .social-icons {
+          text-align: center;
+          padding: 4px 4px 0px;
+      }
+
+/* Footer Links Hover*/
+footer a:hover {
+    color: rgb(161, 126, 190);
+}
+/* Footer Paragraph */
+footer p {
+    color: gray;
+    font-size:.75em;
+    text-align: center;
+    margin: 0;
+}

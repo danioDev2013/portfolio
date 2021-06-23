@@ -1,0 +1,58 @@
+[
+    {
+        "id": 7,
+        "name": "Code Quiz",
+        "image": "images/quiz.png",
+        "description": "This is on of my first projects. The app is interacting with the DOM in Javascript. It incoporates the use of dynamic buttons, timers as well as using Local Storage to keep track of users score, and allows users to input their name at the end.",
+        "live": "https://dorley1993.github.io/code_quiz/",
+        "gitHub": "https://github.com/dorley1993/code_quiz"
+    },
+    {
+        "id": 6,
+        "name": "Weather Dashboard",
+        "image": "images/Weather.gif",
+        "description": "Weather application using API calls to grab current weather conditions and a 5 day forecast. Tech used: Javascript, HTML, and CSS",
+        "live": "https://dorley1993.github.io/Weather_Dashboard/",
+        "gitHub": "https://github.com/dorley1993/Weather_Dashboard"
+    },
+    {
+        "id": 5,
+        "name": "Lost No More",
+        "image": "images/lost.gif",
+        "description": "A travel app that uses openweather and google api's. Tech used: Api's, HTML, CSS, JavaScript, and Bulma",
+        "live": "https://obrienceob.github.io/LostNoMore/",
+        "gitHub": "https://github.com/dorley1993/LostNoMore"
+    },
+    {
+        "id": 4,
+        "name": "Tech Babble",
+        "image": "images/techBabble.png",
+        "description": "A CMS-style blog site. Tech used: MySQL, Sequelize, and Handlebars.",
+        "live": "https://fierce-dawn-00831.herokuapp.com/",
+        "gitHub": "https://github.com/dorley1993/tech_blog"
+    },
+    {
+        "id": 3,
+        "name": "Track the Burn",
+        "image": "images/fit.png",
+        "description": "A full-stack fitness tracker. Technologies used: Express.js, MongoDB, Mongoose, Node.js, and deployed on Heroku.",
+        "live": "https://tracktheburn.herokuapp.com/",
+        "gitHub": "https://github.com/dorley1993/Track_the_Burn"
+    },
+    {
+        "id": 2,
+        "name": "Employee Directory",
+        "image": "images/empldirect.gif",
+        "description": "A React App that allows you to search and filter through a list of employees. Technologies used: React.js, Node.js, Axios, Heroku.",
+        "live": "https://empldirect.herokuapp.com/",
+        "gitHub": "https://github.com/dorley1993/Employee-Directory"
+    },
+    {
+        "id": 1,
+        "name": "Whats in my belly!",
+        "image": "/images/snow.png",
+        "description": "A full-stack food tracker. The technologies used on this group project are: MySQL, Express, Handlebars and Node.",
+        "live": "https://morning-savannah-50964.herokuapp.com/signin",
+        "gitHub": "https://github.com/Connerjm/whatsinmybel.ly"
+    }
+]
