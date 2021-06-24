@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./style.css"
 
-class NavBar extends Component {
+class NavBar2 extends Component {
     
     render() {
         let currentPage = window.location.pathname;
@@ -23,10 +23,11 @@ class NavBar extends Component {
                 <div className="collapse navbar-collapse nav-right" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" href="/Portfolio">Portfolio</a>
+                            <a className="nav-link active" aria-current="page" href="/">Home</a>
                         </li>
+                        
                         <li className="nav-item">
-                            <a className="nav-link" href="/Contact">Contact</a>
+                            <a className="nav-link" href="/Portfolio">Portfolio</a>
                         </li>
                     </ul>
                 </div>
@@ -37,5 +38,5 @@ class NavBar extends Component {
 }
 
 
-export default NavBar;
+export default NavBar2;
 

@@ -11,7 +11,7 @@ function About(props) {
             <div
             style={{"maxWidth": "60%", "marginLeft": "auto", "margin-right": "auto"}}>
                 <p className="my-5"> Hello! My name is Danielle Orley, and I’m a detail oriented Full-Stack Web Developer. I
-                recently earned a certificate in web development, from the University of Washington. Currently I'm a freelancer based 
+                recently earned a certificate in web development, from the University of Washington. Currently I'm a freelancer 
                 based in Washington, US. I want to keep learning and push myself to be a better Web Developer. I take pride in my 
                 work and the websites I’ve worked on. Working in the military, retail, and quality control has taught me to stay calm, 
                 react quickly, and take initiative. I’m a hard worker and strive for excellence.
@@ -22,7 +22,7 @@ function About(props) {
                                 </p>
 
             </div>
-        </div>
+            </div>
     );
 }
 
