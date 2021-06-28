@@ -11,7 +11,7 @@ function ContactPage() {
 
   return (
       <div id="b2">
-          <div style={{ "paddingBottom": "10%" }}>
+          <div id="contact" style={{ "paddingBottom": "10%" }}>
               <NavBar2 />
               <section className="container">
                 <Contact />
